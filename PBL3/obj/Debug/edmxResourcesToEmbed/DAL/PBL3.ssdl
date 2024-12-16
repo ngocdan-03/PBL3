@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ppl3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BAN">
+    <Key>
+      <PropertyRef Name="Mã bàn" />
+    </Key>
+    <Property Name="Mã bàn" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tên bàn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mã bàn ảo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Mã bàn ảo chính" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Trạng thái ghép" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BANAO">
+    <Key>
+      <PropertyRef Name="Mã bàn ảo" />
+    </Key>
+    <Property Name="Mã bàn ảo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tên bàn ảo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Trạng thái" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CHITIETHOADON">
+    <Key>
+      <PropertyRef Name="Mã sản phẩm" />
+      <PropertyRef Name="Mã hóa đơn" />
+    </Key>
+    <Property Name="Mã sản phẩm" Type="int" Nullable="false" />
+    <Property Name="Mã hóa đơn" Type="int" Nullable="false" />
+    <Property Name="Số lượng" Type="int" Nullable="false" />
+    <Property Name="Giá tiền" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="Mã hóa đơn" />
+    </Key>
+    <Property Name="Mã hóa đơn" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Mã tài khoản" Type="int" Nullable="false" />
+    <Property Name="Mã bàn ảo" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Ngày tạo" Type="date" Nullable="false" />
+    <Property Name="Trạng thái" Type="bit" Nullable="false" />
+    <Property Name="Tổng tiền" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LOAISANPHAM">
+    <Key>
+      <PropertyRef Name="Mã loại" />
+    </Key>
+    <Property Name="Mã loại" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tên loại" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SANPHAM">
+    <Key>
+      <PropertyRef Name="Mã sản phẩm" />
+    </Key>
+    <Property Name="Mã sản phẩm" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tên sản phẩm" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mã loại" Type="int" Nullable="false" />
+    <Property Name="Giá" Type="float" Nullable="false" />
+    <Property Name="Hình ảnh" Type="image" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="Mã tài khoản" />
+    </Key>
+    <Property Name="Mã tài khoản" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tên tài khoản" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mật khẩu" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PQ" Type="bit" />
+    <Property Name="Khóa" Type="bit" />
+  </EntityType>
+  <EntityType Name="THONGTINTAIKHOAN">
+    <Key>
+      <PropertyRef Name="Mã nhân viên" />
+    </Key>
+    <Property Name="Mã nhân viên" Type="int" Nullable="false" />
+    <Property Name="Tên nhân viên" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CMND" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SĐT" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Địa chỉ" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Hình ảnh" Type="image" />
+  </EntityType>
+  <Association Name="FK_BAN_BANAO">
+    <End Role="BANAO" Type="Self.BANAO" Multiplicity="1" />
+    <End Role="BAN" Type="Self.BAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANAO">
+        <PropertyRef Name="Mã bàn ảo" />
+      </Principal>
+      <Dependent Role="BAN">
+        <PropertyRef Name="Mã bàn ảo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETHOADON_HOADON1">
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="1" />
+    <End Role="CHITIETHOADON" Type="Self.CHITIETHOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOADON">
+        <PropertyRef Name="Mã hóa đơn" />
+      </Principal>
+      <Dependent Role="CHITIETHOADON">
+        <PropertyRef Name="Mã hóa đơn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CHITIETHOADON_SANPHAM1">
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="1" />
+    <End Role="CHITIETHOADON" Type="Self.CHITIETHOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANPHAM">
+        <PropertyRef Name="Mã sản phẩm" />
+      </Principal>
+      <Dependent Role="CHITIETHOADON">
+        <PropertyRef Name="Mã sản phẩm" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_BANAO">
+    <End Role="BANAO" Type="Self.BANAO" Multiplicity="1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BANAO">
+        <PropertyRef Name="Mã bàn ảo" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="Mã bàn ảo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="Mã tài khoản" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="Mã tài khoản" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SANPHAM_LOAISANPHAM">
+    <End Role="LOAISANPHAM" Type="Self.LOAISANPHAM" Multiplicity="1" />
+    <End Role="SANPHAM" Type="Self.SANPHAM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAISANPHAM">
+        <PropertyRef Name="Mã loại" />
+      </Principal>
+      <Dependent Role="SANPHAM">
+        <PropertyRef Name="Mã loại" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THONGTINTAIKHOAN_TAIKHOAN">
+    <End Role="TAIKHOAN" Type="Self.TAIKHOAN" Multiplicity="1" />
+    <End Role="THONGTINTAIKHOAN" Type="Self.THONGTINTAIKHOAN" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="Mã tài khoản" />
+      </Principal>
+      <Dependent Role="THONGTINTAIKHOAN">
+        <PropertyRef Name="Mã nhân viên" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ppl3ModelStoreContainer">
+    <EntitySet Name="BAN" EntityType="Self.BAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BANAO" EntityType="Self.BANAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CHITIETHOADON" EntityType="Self.CHITIETHOADON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOADON" EntityType="Self.HOADON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAISANPHAM" EntityType="Self.LOAISANPHAM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SANPHAM" EntityType="Self.SANPHAM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAIKHOAN" EntityType="Self.TAIKHOAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THONGTINTAIKHOAN" EntityType="Self.THONGTINTAIKHOAN" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_BAN_BANAO" Association="Self.FK_BAN_BANAO">
+      <End Role="BANAO" EntitySet="BANAO" />
+      <End Role="BAN" EntitySet="BAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETHOADON_HOADON1" Association="Self.FK_CHITIETHOADON_HOADON1">
+      <End Role="HOADON" EntitySet="HOADON" />
+      <End Role="CHITIETHOADON" EntitySet="CHITIETHOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CHITIETHOADON_SANPHAM1" Association="Self.FK_CHITIETHOADON_SANPHAM1">
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+      <End Role="CHITIETHOADON" EntitySet="CHITIETHOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_BANAO" Association="Self.FK_HOADON_BANAO">
+      <End Role="BANAO" EntitySet="BANAO" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_TAIKHOAN" Association="Self.FK_HOADON_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SANPHAM_LOAISANPHAM" Association="Self.FK_SANPHAM_LOAISANPHAM">
+      <End Role="LOAISANPHAM" EntitySet="LOAISANPHAM" />
+      <End Role="SANPHAM" EntitySet="SANPHAM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THONGTINTAIKHOAN_TAIKHOAN" Association="Self.FK_THONGTINTAIKHOAN_TAIKHOAN">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="THONGTINTAIKHOAN" EntitySet="THONGTINTAIKHOAN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

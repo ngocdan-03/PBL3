@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pbl3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="INFOR_ACCOUNT" Relationship="Self.FK_ACCOUNT_INFOR_ACCOUNT" FromRole="ACCOUNT" ToRole="INFOR_ACCOUNT" />
+    <NavigationProperty Name="BILL" Relationship="Self.FK_BILL_ACCOUNT" FromRole="ACCOUNT" ToRole="BILL" />
+  </EntityType>
+  <EntityType Name="BILL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_ACCOUNT" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_V_TABLE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ACCOUNT" Relationship="Self.FK_BILL_ACCOUNT" FromRole="BILL" ToRole="ACCOUNT" />
+    <NavigationProperty Name="VIRTUAL_TABLE" Relationship="Self.FK_BILL_VIRTUAL_TABLE" FromRole="BILL" ToRole="VIRTUAL_TABLE" />
+    <NavigationProperty Name="DETAIL_BILL" Relationship="Self.FK_DETAIL_BILL_BILL" FromRole="BILL" ToRole="DETAIL_BILL" />
+  </EntityType>
+  <EntityType Name="CONNECT_TABLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_V_TABLE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_TABLE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="TABLE" Relationship="Self.FK_CONNECT_TABLE_TABLE" FromRole="CONNECT_TABLE" ToRole="TABLE" />
+    <NavigationProperty Name="VIRTUAL_TABLE" Relationship="Self.FK_CONNECT_TABLE_VIRTUAL_TABLE" FromRole="CONNECT_TABLE" ToRole="VIRTUAL_TABLE" />
+  </EntityType>
+  <EntityType Name="INFOR_ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CMND" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PHONE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ADDRESS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ACCOUNT" Relationship="Self.FK_ACCOUNT_INFOR_ACCOUNT" FromRole="INFOR_ACCOUNT" ToRole="ACCOUNT" />
+  </EntityType>
+  <EntityType Name="PRODUCT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_TYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PRICE" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DETAIL_BILL" Relationship="Self.FK_DETAIL_BILL_PRODUCT1" FromRole="PRODUCT" ToRole="DETAIL_BILL" />
+    <NavigationProperty Name="TYPE_PRODUCT" Relationship="Self.FK_PRODUCT_TYPE_PRODUCT" FromRole="PRODUCT" ToRole="TYPE_PRODUCT" />
+  </EntityType>
+  <EntityType Name="TABLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="STATUS" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CONNECT_TABLE" Relationship="Self.FK_CONNECT_TABLE_TABLE" FromRole="TABLE" ToRole="CONNECT_TABLE" />
+  </EntityType>
+  <EntityType Name="TYPE_PRODUCT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PRODUCT" Relationship="Self.FK_PRODUCT_TYPE_PRODUCT" FromRole="TYPE_PRODUCT" ToRole="PRODUCT" />
+  </EntityType>
+  <EntityType Name="VIRTUAL_TABLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_BILL" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="STATUS" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="BILL" Relationship="Self.FK_BILL_VIRTUAL_TABLE" FromRole="VIRTUAL_TABLE" ToRole="BILL" />
+    <NavigationProperty Name="CONNECT_TABLE" Relationship="Self.FK_CONNECT_TABLE_VIRTUAL_TABLE" FromRole="VIRTUAL_TABLE" ToRole="CONNECT_TABLE" />
+  </EntityType>
+  <EntityType Name="DETAIL_BILL">
+    <Key>
+      <PropertyRef Name="ID_PRODUCT" />
+      <PropertyRef Name="ID_BILL" />
+      <PropertyRef Name="QUANTITY" />
+      <PropertyRef Name="PRICE" />
+      <PropertyRef Name="DATE" />
+    </Key>
+    <Property Name="ID_PRODUCT" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ID_BILL" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QUANTITY" Type="Int32" Nullable="false" />
+    <Property Name="PRICE" Type="Int32" Nullable="false" />
+    <Property Name="DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="BILL" Relationship="Self.FK_DETAIL_BILL_BILL" FromRole="DETAIL_BILL" ToRole="BILL" />
+    <NavigationProperty Name="PRODUCT" Relationship="Self.FK_DETAIL_BILL_PRODUCT1" FromRole="DETAIL_BILL" ToRole="PRODUCT" />
+  </EntityType>
+  <Association Name="FK_ACCOUNT_INFOR_ACCOUNT">
+    <End Role="INFOR_ACCOUNT" Type="Self.INFOR_ACCOUNT" Multiplicity="1" />
+    <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="INFOR_ACCOUNT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ACCOUNT">
+        <PropertyRef Name="ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BILL_ACCOUNT">
+    <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="1" />
+    <End Role="BILL" Type="Self.BILL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ACCOUNT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BILL">
+        <PropertyRef Name="ID_ACCOUNT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BILL_VIRTUAL_TABLE">
+    <End Role="VIRTUAL_TABLE" Type="Self.VIRTUAL_TABLE" Multiplicity="1" />
+    <End Role="BILL" Type="Self.BILL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VIRTUAL_TABLE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BILL">
+        <PropertyRef Name="ID_V_TABLE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETAIL_BILL_BILL">
+    <End Role="BILL" Type="Self.BILL" Multiplicity="1" />
+    <End Role="DETAIL_BILL" Type="Self.DETAIL_BILL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BILL">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DETAIL_BILL">
+        <PropertyRef Name="ID_BILL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CONNECT_TABLE_TABLE">
+    <End Role="TABLE" Type="Self.TABLE" Multiplicity="1" />
+    <End Role="CONNECT_TABLE" Type="Self.CONNECT_TABLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TABLE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CONNECT_TABLE">
+        <PropertyRef Name="ID_TABLE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CONNECT_TABLE_VIRTUAL_TABLE">
+    <End Role="VIRTUAL_TABLE" Type="Self.VIRTUAL_TABLE" Multiplicity="1" />
+    <End Role="CONNECT_TABLE" Type="Self.CONNECT_TABLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VIRTUAL_TABLE">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CONNECT_TABLE">
+        <PropertyRef Name="ID_V_TABLE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETAIL_BILL_PRODUCT1">
+    <End Role="PRODUCT" Type="Self.PRODUCT" Multiplicity="1" />
+    <End Role="DETAIL_BILL" Type="Self.DETAIL_BILL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="DETAIL_BILL">
+        <PropertyRef Name="ID_PRODUCT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCT_TYPE_PRODUCT">
+    <End Role="TYPE_PRODUCT" Type="Self.TYPE_PRODUCT" Multiplicity="1" />
+    <End Role="PRODUCT" Type="Self.PRODUCT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TYPE_PRODUCT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PRODUCT">
+        <PropertyRef Name="ID_TYPE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pbl3Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" />
+    <EntitySet Name="BILL" EntityType="Self.BILL" />
+    <EntitySet Name="CONNECT_TABLE" EntityType="Self.CONNECT_TABLE" />
+    <EntitySet Name="INFOR_ACCOUNT" EntityType="Self.INFOR_ACCOUNT" />
+    <EntitySet Name="PRODUCT" EntityType="Self.PRODUCT" />
+    <EntitySet Name="TABLE" EntityType="Self.TABLE" />
+    <EntitySet Name="TYPE_PRODUCT" EntityType="Self.TYPE_PRODUCT" />
+    <EntitySet Name="VIRTUAL_TABLE" EntityType="Self.VIRTUAL_TABLE" />
+    <EntitySet Name="DETAIL_BILL" EntityType="Self.DETAIL_BILL" />
+    <AssociationSet Name="FK_ACCOUNT_INFOR_ACCOUNT" Association="Self.FK_ACCOUNT_INFOR_ACCOUNT">
+      <End Role="INFOR_ACCOUNT" EntitySet="INFOR_ACCOUNT" />
+      <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BILL_ACCOUNT" Association="Self.FK_BILL_ACCOUNT">
+      <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+      <End Role="BILL" EntitySet="BILL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BILL_VIRTUAL_TABLE" Association="Self.FK_BILL_VIRTUAL_TABLE">
+      <End Role="VIRTUAL_TABLE" EntitySet="VIRTUAL_TABLE" />
+      <End Role="BILL" EntitySet="BILL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETAIL_BILL_BILL" Association="Self.FK_DETAIL_BILL_BILL">
+      <End Role="BILL" EntitySet="BILL" />
+      <End Role="DETAIL_BILL" EntitySet="DETAIL_BILL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CONNECT_TABLE_TABLE" Association="Self.FK_CONNECT_TABLE_TABLE">
+      <End Role="TABLE" EntitySet="TABLE" />
+      <End Role="CONNECT_TABLE" EntitySet="CONNECT_TABLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CONNECT_TABLE_VIRTUAL_TABLE" Association="Self.FK_CONNECT_TABLE_VIRTUAL_TABLE">
+      <End Role="VIRTUAL_TABLE" EntitySet="VIRTUAL_TABLE" />
+      <End Role="CONNECT_TABLE" EntitySet="CONNECT_TABLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETAIL_BILL_PRODUCT1" Association="Self.FK_DETAIL_BILL_PRODUCT1">
+      <End Role="PRODUCT" EntitySet="PRODUCT" />
+      <End Role="DETAIL_BILL" EntitySet="DETAIL_BILL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCT_TYPE_PRODUCT" Association="Self.FK_PRODUCT_TYPE_PRODUCT">
+      <End Role="TYPE_PRODUCT" EntitySet="TYPE_PRODUCT" />
+      <End Role="PRODUCT" EntitySet="PRODUCT" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

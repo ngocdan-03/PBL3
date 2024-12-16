@@ -1,0 +1,224 @@
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\ASUS\OneDrive\Tài liệu\Visual Studio 2022\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.CreateBill.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\ASUS\OneDrive\Tài liệu\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.CreateBill.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+C:\Users\PC\Downloads\PBL3(4)\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+D:\Code\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.CreateBill.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+D:\Code\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.CreateBill.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.exe
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\PBL3.pdb
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.CreateBill.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
+C:\Users\PC\Desktop\PBL3\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\PBL3.exe.config
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\PBL3.pdb
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.ChangePass.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.ChiTietHoaDon.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.DetailFormSanPham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.DetailFormTaiKhoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.DetailOrder.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.DoanhThu.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.MainForm.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.Login.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.Properties.Resources.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.MergeTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.Order.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.Quan_li_san_pham.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.Quan_li_tai_khoan.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.SplitTable.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.VIEW.ThongKe.resources
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.csproj.CopyComplete
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.exe
+C:\Users\ASUS\Downloads\PBL3\PBL3-v15\PBL3\obj\Debug\PBL3.pdb

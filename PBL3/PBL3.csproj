@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22375EF9-74D2-4125-AB19-3A89DDB5FF04}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PBL3</RootNamespace>
+    <AssemblyName>PBL3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BieuDoBLL.cs" />
+    <Compile Include="BLL\ChiTietHoaDonBLL.cs" />
+    <Compile Include="BLL\DoanhThuBLL.cs" />
+    <Compile Include="BLL\QLhomeBLL.cs" />
+    <Compile Include="BLL\QLLoginBLL.cs" />
+    <Compile Include="BLL\QLOrderBLL.cs" />
+    <Compile Include="BLL\QLSanPhamBLL.cs" />
+    <Compile Include="BLL\QLTaiKhoanBLL.cs" />
+    <Compile Include="DAL\BAN.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\BANAO.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\CBBItems.cs" />
+    <Compile Include="DAL\CHITIETHOADON.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\HOADON.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\LOAISANPHAM.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\PBL3.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PBL3.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\PBL3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\PBL3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PBL3.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\SANPHAM.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ShowHoaDon.cs" />
+    <Compile Include="DAL\TAIKHOAN.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\THONGTINTAIKHOAN.cs">
+      <DependentUpon>PBL3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\ChangePass.Designer.cs">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\ChiTietHoaDon.Designer.cs">
+      <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DetailFormSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\DetailFormSanPham.Designer.cs">
+      <DependentUpon>DetailFormSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DetailFormTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\DetailFormTaiKhoan.Designer.cs">
+      <DependentUpon>DetailFormTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DetailOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\DetailOrder.Designer.cs">
+      <DependentUpon>DetailOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\DoanhThu.Designer.cs">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIEW\MergeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\MergeTable.Designer.cs">
+      <DependentUpon>MergeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\Quan_li_san_pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\Quan_li_san_pham.Designer.cs">
+      <DependentUpon>Quan_li_san_pham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\Quan_li_tai_khoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\Quan_li_tai_khoan.Designer.cs">
+      <DependentUpon>Quan_li_tai_khoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\SplitTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\SplitTable.Designer.cs">
+      <DependentUpon>SplitTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VIEW\ChangePass.resx">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\ChiTietHoaDon.resx">
+      <DependentUpon>ChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\DetailFormSanPham.resx">
+      <DependentUpon>DetailFormSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\DetailFormTaiKhoan.resx">
+      <DependentUpon>DetailFormTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\DetailOrder.resx">
+      <DependentUpon>DetailOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\DoanhThu.resx">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\MergeTable.resx">
+      <DependentUpon>MergeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\Quan_li_san_pham.resx">
+      <DependentUpon>Quan_li_san_pham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\Quan_li_tai_khoan.resx">
+      <DependentUpon>Quan_li_tai_khoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\SplitTable.resx">
+      <DependentUpon>SplitTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <EntityDeploy Include="DAL\PBL3.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PBL3.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DAL\PBL3.edmx.diagram">
+      <DependentUpon>PBL3.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-01_091212-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-01_091355-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-01_092252-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-01_092004-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_beans_PNG97302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_beans_PNG973021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_beans_PNG973022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_beans_PNG973023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP-removebg-preview %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-07_101209-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ảnh_chụp_màn_hình_2023-04-07_101209-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2023-04-27_141249-removebg-preview.png" />
+    <None Include="Resources\Screenshot_2023-04-27_141313-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DOMOTEX-USA19-icon-chart-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-removebg-preview1.png" />
+    <None Include="Resources\complete-removebg-preview.png" />
+    <None Include="Resources\huymon-removebg-preview.png" />
+    <None Include="Resources\datmon-removebg-preview.png" />
+    <None Include="Resources\tach-removebg-preview.png" />
+    <None Include="Resources\merge-removebg-preview.png" />
+    <None Include="Resources\doiban-removebg-preview.png" />
+    <None Include="Resources\mokhoa-removebg-preview.png" />
+    <None Include="Resources\khóa-removebg-preview.png" />
+    <None Include="Resources\xóa-removebg-preview.png" />
+    <None Include="Resources\them-removebg-preview.png" />
+    <None Include="Resources\tìm-removebg-preview.png" />
+    <None Include="Resources\lưu-removebg-preview.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\R-removebg-preview.png" />
+    <None Include="Resources\logout-removebg-preview11.png" />
+    <None Include="Resources\logout-removebg-preview2.png" />
+    <None Include="Resources\logout-removebg-preview1.png" />
+    <None Include="Resources\calligraphy-banner-2546893-removebg-preview.png" />
+    <None Include="Resources\vcl-removebg-preview %282%29.png" />
+    <None Include="Resources\top-view-cute-little-baby-accesories-with-copy-space-removebg-preview.png" />
+    <None Include="Resources\omg-removebg-preview.png" />
+    <None Include="Resources\hayqua-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6ef87ccbe70c51373066b27fa0476722-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAL\PBL3.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PBL3.edmx</DependentUpon>
+      <LastGenOutput>PBL3.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DAL\PBL3.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PBL3.edmx</DependentUpon>
+      <LastGenOutput>PBL3.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

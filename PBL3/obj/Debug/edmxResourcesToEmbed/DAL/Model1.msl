@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ppl33ModelStoreContainer" CdmEntityContainer="PBL3Entities">
+    <EntitySetMapping Name="BAN">
+      <EntityTypeMapping TypeName="ppl33Model.BAN">
+        <MappingFragment StoreEntitySet="BAN">
+          <ScalarProperty Name="Mã_bàn" ColumnName="Mã bàn" />
+          <ScalarProperty Name="Tên_bàn" ColumnName="Tên bàn" />
+          <ScalarProperty Name="Mã_bàn_ảo" ColumnName="Mã bàn ảo" />
+          <ScalarProperty Name="Mã_bàn_ảo_chính" ColumnName="Mã bàn ảo chính" />
+          <ScalarProperty Name="Trạng_thái_ghép" ColumnName="Trạng thái ghép" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANAO">
+      <EntityTypeMapping TypeName="ppl33Model.BANAO">
+        <MappingFragment StoreEntitySet="BANAO">
+          <ScalarProperty Name="Mã_bàn_ảo" ColumnName="Mã bàn ảo" />
+          <ScalarProperty Name="Tên_bàn_ảo" ColumnName="Tên bàn ảo" />
+          <ScalarProperty Name="Trạng_thái" ColumnName="Trạng thái" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHITIETHOADON">
+      <EntityTypeMapping TypeName="ppl33Model.CHITIETHOADON">
+        <MappingFragment StoreEntitySet="CHITIETHOADON">
+          <ScalarProperty Name="Mã_sản_phẩm" ColumnName="Mã sản phẩm" />
+          <ScalarProperty Name="Mã_hóa_đơn" ColumnName="Mã hóa đơn" />
+          <ScalarProperty Name="Số_lượng" ColumnName="Số lượng" />
+          <ScalarProperty Name="Giá_tiền" ColumnName="Giá tiền" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADON">
+      <EntityTypeMapping TypeName="ppl33Model.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="Mã_hóa_đơn" ColumnName="Mã hóa đơn" />
+          <ScalarProperty Name="Mã_tài_khoản" ColumnName="Mã tài khoản" />
+          <ScalarProperty Name="Mã_bàn_ảo" ColumnName="Mã bàn ảo" />
+          <ScalarProperty Name="Ngày_tạo" ColumnName="Ngày tạo" />
+          <ScalarProperty Name="Trạng_thái" ColumnName="Trạng thái" />
+          <ScalarProperty Name="Tổng_tiền" ColumnName="Tổng tiền" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAISANPHAM">
+      <EntityTypeMapping TypeName="ppl33Model.LOAISANPHAM">
+        <MappingFragment StoreEntitySet="LOAISANPHAM">
+          <ScalarProperty Name="Mã_loại" ColumnName="Mã loại" />
+          <ScalarProperty Name="Tên_loại" ColumnName="Tên loại" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAM">
+      <EntityTypeMapping TypeName="ppl33Model.SANPHAM">
+        <MappingFragment StoreEntitySet="SANPHAM">
+          <ScalarProperty Name="Mã_sản_phẩm" ColumnName="Mã sản phẩm" />
+          <ScalarProperty Name="Tên_sản_phẩm" ColumnName="Tên sản phẩm" />
+          <ScalarProperty Name="Mã_loại" ColumnName="Mã loại" />
+          <ScalarProperty Name="Giá" ColumnName="Giá" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAIKHOAN">
+      <EntityTypeMapping TypeName="ppl33Model.TAIKHOAN">
+        <MappingFragment StoreEntitySet="TAIKHOAN">
+          <ScalarProperty Name="Mã_tài_khoản" ColumnName="Mã tài khoản" />
+          <ScalarProperty Name="Tên_tài_khoản" ColumnName="Tên tài khoản" />
+          <ScalarProperty Name="Mật_khẩu" ColumnName="Mật khẩu" />
+          <ScalarProperty Name="PQ" ColumnName="PQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THONGTINTAIKHOAN">
+      <EntityTypeMapping TypeName="ppl33Model.THONGTINTAIKHOAN">
+        <MappingFragment StoreEntitySet="THONGTINTAIKHOAN">
+          <ScalarProperty Name="Mã_nhân_viên" ColumnName="Mã nhân viên" />
+          <ScalarProperty Name="Tên_nhân_viên" ColumnName="Tên nhân viên" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="SĐT" ColumnName="SĐT" />
+          <ScalarProperty Name="Địa_chỉ" ColumnName="Địa chỉ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
